@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E64CA844-6997-468C-8D51-233F0BFD090F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66E2B665-AB44-456A-BE48-1EAA8C4357C2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "typeScriptDebugge", "src\typeScriptDebugge\typeScriptDebugge.xproj", "{3319DA03-1CA2-4723-B794-6D93C661A67E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3319DA03-1CA2-4723-B794-6D93C661A67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3319DA03-1CA2-4723-B794-6D93C661A67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3319DA03-1CA2-4723-B794-6D93C661A67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3319DA03-1CA2-4723-B794-6D93C661A67E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3319DA03-1CA2-4723-B794-6D93C661A67E} = {E64CA844-6997-468C-8D51-233F0BFD090F}
+	EndGlobalSection
+EndGlobal
